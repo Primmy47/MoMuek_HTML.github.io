@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #112731;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    transform: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: greenyellow;
+    transition: all 0.3s ease 0s;
+}
+
+.container{
+    width: 100%;
+    /*min-height: 100vh;*/
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+h1{
+    font-size: 60px;
+    color:aliceblue
+}
+
+h5{
+    color:aliceblue
+}
+
+button{
+    border: 1px solid greenyellow;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    color: greenyellow;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover{
+    color: #112731;
+    background-color: greenyellow;
+}
+
+.col1-1{
+    color: aliceblue;
+    position: relative;
+    flex-basis: 40%;
+    margin-left: 50px;
+    width: 50%;
+    float: left;
+}
+
+.col1-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 40%;
+}
+
+
+.pic1{
+    height: 300px;
+    margin-left: 30px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    color: aliceblue;
+}
+
+h3{
+    font-size: 40px;
+    color:aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h6{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.pic2{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto 0 auto;
+    clip-path: circle();
+}
+
+.col3-1, .col3-2, .col3-3{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 33.33%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col4-2{
+    color: aliceblue;
+    margin-left: 30px;
+}
